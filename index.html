@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Website</title>
+    <link href="https://use.typekit.net/lkl0piq.css">
     <link href="https://use.typekit.net/lkl0piq.css"> <!--Header font (must be ontop of stylesheet)--> 
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
@@ -22,11 +23,12 @@
     </header>
 
     <section>
+        <img src="images/stars.png" id="stars">
         <img src="images/mountains_behind.png" id="mountains">
         <h2 id="text"> My Portfolio </h2>
         <img src="images/polar bear.png" id="bear">
     </section>
-    <div class="About">
+    <div class="About" id= "About">
         <h2>About me</h2>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum dolore fuga dolorum, sunt pariatur eius saepe corporis suscipit reprehenderit tenetur, sint, veniam est autem! Quae, reprehenderit? Doloribus dolores perferendis porro! 
            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis dolorum id minima velit, quas eius doloribus blanditiis officiis aliquid voluptatibus ullam voluptas voluptatum doloremque ipsum placeat, quaerat architecto vitae impedit. 
@@ -38,5 +40,18 @@
            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis dolorum id minima velit, quas eius doloribus blanditiis officiis aliquid voluptatibus ullam voluptas voluptatum doloremque ipsum placeat, quaerat architecto vitae impedit. 
            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique earum animi, quaerat inventore labore enim illo impedit assumenda repudiandae reiciendis est fugiat? Numquam consectetur perferendis recusandae corrupti provident illo aspernatur?</p>
      </div>
+     <script>
+         let bear = document.getElementById('bear');
+         let text = document.getElementById('text');
+         let mountains = document.getElementById('mountains');
+         let stars = document.getElementById('stars');
+
+         window.addEventListener('scroll',function(){
+             let value = window.scrollY;
+             stars.style.left = value * 0.15 + 'px';
+             mountains.style.left = value * 0.10 + 'px';
+             text.style.marginRight = value * 3 + 'px';
+         })
+     </script>
 </body>
 </html>

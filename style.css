@@ -6,11 +6,14 @@
     font-family: itc-avant-garde-gothic-pro, sans-serif;
     font-weight: 700;
     font-style: normal;
+    scroll-behavior: smooth;
 }
 
 body {
  min-height:100vh;
- background: linear-gradient(#E3F2FD, #0D47A1);
+ overflow-x: hidden;
+ background: linear-gradient(#E3F2FD, #2196F3);
+
 }
 
 .headers {
@@ -54,6 +57,17 @@ section{
     align-items: center;
 } /*aligns mountain image and bear image within the section */
 
+section::before{
+content: '';
+position: absolute;
+bottom: 0;
+width: 100%;
+height:100px;
+background: #6badc9;
+z-index:1000;
+
+}
+
 section img#bear {
     position: absolute;
     top: 0;
@@ -73,21 +87,38 @@ section img#mountains{
     height: 80%;
     object-fit:cover;
 }
+section img#stars {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    object-fit:cover;
+}
 #text{
     position:absolute;
     color:white;
     white-space: nowrap;
     font-size: 7.5vw;
     z-index: 9; /* postitions text above the mountain image but below the bear */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+
 }
+
 .About{
   position: relative;
   padding: 100px;
-  background: lightcyan;  
+  background: linear-gradient(to top, transparent, #6badc9);
 } /* about me page */
 
 .About h2 {
     font-size: 3.5em;
+    margin-bottom: 10px;
+    color: black;
+}
+.About p{
+    font-size: 1em;
     margin-bottom: 10px;
     color: black;
 }
