@@ -1,0 +1,45 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+ min-height:100vh;
+ background: linear-gradient(#E3F2FD, #0D47A1);
+}
+
+.headers {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+} /*places spaces between the headers*/
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 75px;
+} /*centers the headers amd lowers them from the top of the page*/
+
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    padding: 6px 15px;
+    color: black;
+    border-radius: 20px;
+} /*creates round box when mouse is over the header*/
+
+header ul li a:hover {
+    background: white;
+    color: lightseagreen; 
+} /*changes the header blue when mouse is over the header*/
