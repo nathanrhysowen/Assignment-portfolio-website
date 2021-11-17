@@ -36,16 +36,27 @@ header ul li{
 } /*adjusts space between headers */
 
 header ul li a {
-    text-decoration: none;
+    text-decoration:none;
     padding: 6px 15px;
     color: black;
     border-radius: 20px;
-} /*creates round box when mouse is over the header*/
+} 
 
 header ul li a:hover {
     background: white;
     color: lightseagreen; 
+    
 } /*changes the header blue when mouse is over the header*/
+
+header nav ul li ul li a:hover{
+    display: block;
+    position: relative;
+    background-color: white;
+    
+    
+
+}
+
 
 section{
     position: relative;
