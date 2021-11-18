@@ -23,6 +23,8 @@ body {
     justify-content: space-between;
 } /*places spaces between the headers*/
 
+
+
 header ul {
     display: flex;
     justify-content: center;
@@ -30,10 +32,14 @@ header ul {
     line-height: 75px;
 } /*centers the headers amd lowers them from the top of the page*/
 
+
+
 header ul li{
     list-style: none;
     margin-left: 20px;
 } /*adjusts space between headers */
+
+
 
 header ul li a {
     text-decoration:none;
@@ -47,15 +53,6 @@ header ul li a:hover {
     color: lightseagreen; 
     
 } /*changes the header blue when mouse is over the header*/
-
-header nav ul li ul li a:hover{
-    display: block;
-    position: relative;
-    background-color: white;
-    
-    
-
-}
 
 
 section{
