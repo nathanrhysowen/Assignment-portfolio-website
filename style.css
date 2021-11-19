@@ -129,6 +129,24 @@ section img#stars {
     font-size: 1em;
     margin-bottom: 10px;
     color: black;
+    position:relative;
+    left: 9cm;
+    top: 2cm;
+
+}
+
+.me{
+    position: relative;
+    width: 10cm;
+    height: 12cm;
+    right: 1.5cm;
+    border: 5px solid;
+    border-color: teal;
+}
+
+.arrow{
+    font-size: 10em;
+    
 }
 
 .Coding-tasks{
@@ -166,3 +184,4 @@ padding:100px;
     margin-bottom:10px;
     color: black;
 }
+
