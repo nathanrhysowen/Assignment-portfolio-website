@@ -203,3 +203,20 @@ padding:100px;
     color: black;
 }
 
+.UX{
+    background: linear-gradient(to top, #0D47A1, #1565C0 );
+    position:relative;
+    padding:100px
+}
+
+.UX h2{
+    font-size: 3.5em;
+    margin-bottom:10px;
+    color:black;
+}
+
+.UX p{
+    font-size:1em;
+    margin-bottom:10px;
+    color:black;
+}
