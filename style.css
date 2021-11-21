@@ -21,6 +21,7 @@ body {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
+    
 } /*places spaces between the headers*/
 
 
@@ -37,6 +38,7 @@ header ul {
 header ul li{
     list-style: none;
     margin-left: 20px;
+
 } /*adjusts space between headers */
 
 
@@ -107,6 +109,7 @@ section img#stars {
     position:absolute;
     color:white;
     white-space: nowrap;
+    font-family:'Overlock', cursive;
     font-size: 7.5vw;
     z-index: 9; /* postitions text above the mountain image but below the bear */
     -webkit-text-stroke-width: 1px;
@@ -135,14 +138,29 @@ section img#stars {
 
 }
 
+
 .me{
     position: relative;
     width: 10cm;
     height: 12cm;
     right: 1.5cm;
+    filter:blur(50px);
     border: 5px solid;
     border-color: teal;
+    
+;
 }
+.me:hover{
+    position: relative;
+    width: 10cm;
+    height: 12cm;
+    right: 1.5cm;
+    border: 5px solid;
+    border-color:teal;
+    filter:blur(0px);
+}
+
+
 
 .arrow{
     font-size: 10em;
