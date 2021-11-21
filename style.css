@@ -183,6 +183,39 @@ padding:100px;
     font-size: 1em;
     margin-bottom:10px;
     color: black;
+    position: relative;
+    top:1.3cm;
+}
+
+.worksheet1{
+    position: relative;
+    width: 25cm;
+    height: 12cm;
+    bottom: 4.3em;
+    right: 0cm;
+    left: 12cm;
+    border: 5px solid;
+    border-color: teal;
+}
+.worksheet1_github{
+    text-decoration:none;
+    padding: 6px 5px;
+    color: black;
+    text-align:center;
+    border: solid 2px black;
+    border-radius: 50px;
+    padding:10px 80px;
+    position: relative;
+    bottom: 9cm;
+    right: 23cm;
+
+
+}
+
+.worksheet1_github:hover{
+    background: teal;
+    color: lightseagreen;
+
 }
 
 .CARP{
