@@ -32,7 +32,7 @@
     </header>
 
     <section>
-        <img src="images/stars.png" id="stars">
+        <img src="images/snow.png" id="snow">
         <img src="images/mountains_behind.png" id="mountains">
         <h2 id="text"> MY PORTFOLIO </h2>
         <img src="images/polar bear.png" id="bear">
@@ -53,11 +53,20 @@
 
      <div class = "Coding-tasks" a id = "Coding-tasks">
          <h2>Coding tasks</h2>
+         
          <h1>Task 1</h1>
          <p>The first task of the module introduced me to the very <br>basic fundamentals of HTML, including the body tag. It also <br> introduced me to Gitchub. Both of which i had no prior <br>knowledge of. Even though it was a very simple task, it <br>
             helped me understand the basic structure of HTML <br> programming. </p>
          <img src="images/worksheet_one_screenshot.JPG" class = "worksheet1" id = "worksheet1">
          <a class = "worksheet1_github" id = "worksheet1_github" href= "https://github.com/nathanrhysowen/Html-Work-Sheet-1">Github link</a></p>
+         
+         <h1  class = "task2" id= "task2">Task 2</h1>
+         <p id = "task2p" class = "task2p">The second task of the module introduced me to CSS, which <br> allowed me to design and decorate the webpage with colour. <br> I also learned how
+             to add images into a webpage. This is<br> where the programming began to get more fun and interesting, <br> as I enjoy the process of making the layout
+             of the webpage<br> look nice. At this point I was still unsure about HTML and CSS <br> programming however it definitely gave me more confidence.
+         </p>
+         <img src = "images/worksheet_two_screenshot.JPG" class = "worksheet2" id = "worksheet2">
+         <a class = "worksheet2_github" id = "worksheet2_github" href = "https://github.com/nathanrhysowen/HTML-worksheet-2">Github link</a>
      </div>
 
      <div class = "CARP" a id="CARP">
@@ -105,11 +114,11 @@
          let bear = document.getElementById('bear');
          let text = document.getElementById('text');
          let mountains = document.getElementById('mountains');
-         let stars = document.getElementById('stars');
+         let snow = document.getElementById('snow');
 
          window.addEventListener('scroll',function(){
              let value = window.scrollY;
-             stars.style.left = value * 0.2 + 'px';
+             snow.style.left = value * 0.2 + 'px';
              mountains.style.left = value * 0.10 + 'px';
              text.style.marginRight = value * 2 + 'px';
          })
