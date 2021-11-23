@@ -204,7 +204,7 @@ padding:100px;
     right: 0cm;
     left: 12cm;
     border: 5px solid;
-    border-color: teal;
+    border-color: lightseagreen;
 }
 .worksheet1_github{
     text-decoration:none;
@@ -239,7 +239,7 @@ padding:100px;
     right: 2cm;
     bottom:2.3cm;
     border: 5px solid;
-    border-color: teal;
+    border-color: lightseagreen;
     
 }
 .worksheet2_github{
@@ -274,7 +274,7 @@ padding:100px;
     left: 12cm;
     bottom:2.8cm;
     border: 5px solid;
-    border-color: teal;
+    border-color:lightseagreen;
     
 }
 .worksheet3_github{
@@ -300,11 +300,46 @@ padding:100px;
     right:0.5cm;
 }
 
-.explainer{
+.worksheet4{
     position:relative;
-    bottom:15cm;
-    font-size:10px;
+    width: 25cm;
+    height: 12cm;
+    right: 2cm;
+    bottom:3.2cm;
+    border: 5px solid;
+    border-color: lightseagreen;
+
 }
+
+.task4{
+    position: relative;
+    left:23.5cm;
+}
+
+.task4p{
+    position:relative;
+    left: 23.3cm;
+}
+
+.worksheet4_github{
+    text-decoration:none;
+    padding: 6px 5px;
+    color: black;
+    text-align:center;
+    border: solid 2px black;
+    border-radius: 50px;
+    padding:10px 80px;
+    position: relative;
+    bottom: 8.7cm;
+    left:1.6cm;
+}
+
+.worksheet4_github:hover{
+    background:whitesmoke;
+    color:lightseagreen;
+}
+
+
 .CARP{
     background:linear-gradient(to top,#1976d2,#2196F3);
     position:relative;
