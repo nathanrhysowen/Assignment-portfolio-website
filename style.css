@@ -344,7 +344,7 @@ padding:100px;
     width: 60%;
     overflow: hidden;
     left:16.2cm;
-    bottom:1cm;
+    bottom:1.9cm;
     
 }
 
@@ -398,7 +398,7 @@ padding:100px;
     padding:10px 80px;
     position: relative;
     top: 3cm;
-    left: 4.5cm;
+    left: 4cm;
 }
 
 .worksheet5_github:hover{
@@ -423,6 +423,11 @@ padding:100px;
     font-size: 1em;
     margin-bottom:10px;
     color: black;
+}
+
+.truefalse{
+    height:15cm;
+    width:11cm;
 }
 
 .Type{
