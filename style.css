@@ -411,17 +411,22 @@ padding:100px;
     background:linear-gradient(to top,#1976d2,#2196F3);
     position:relative;
     padding: 100px;
+    height: 37cm;
+    
     
 }
 .CARP h2{
     font-size: 3.5em;
-    margin-bottom:10px;
+    
     color:black;
+    position:relative;
+    bottom:1cm;
+
 }
 
 .CARPh1{
     font-size: 2em;
-    margin-bottom: 10px;
+    
     color:black;
     position: relative;
     left: 17cm;
@@ -431,16 +436,15 @@ padding:100px;
 
 .design1p{
     font-size: 1em;
-    margin-bottom:10px;
+    
     color: black;
     position: relative;
     left: 17cm;
-    bottom: 38cm;
+    bottom: 37cm;
 }
 
 .design2h{
     font-size: 2em;
-    margin-bottom: 10px;
     color: black;
     position: relative;
     left: 17cm;
@@ -449,16 +453,14 @@ padding:100px;
 
 .design2p{
     font-size: 1em;
-    margin-bottom:10px;
     color: black;
     position: relative;
     left: 17cm;
-    bottom: 35.1cm;
+    bottom: 34.1cm;
 }
 
 .design3h{
     font-size: 2em;
-    margin-bottom: 10px;
     color: black;
     position: relative;
     left: 17cm;
@@ -468,10 +470,9 @@ padding:100px;
 
 .design3p{
     font-size: 1em;
-    margin-bottom:10px;
     color: black;
     position: relative;
-    bottom: 32cm;
+    bottom: 31cm;
     left: 17cm;
 
 
@@ -479,7 +480,6 @@ padding:100px;
 
 .finaldesign{
     font-size: 2em;
-    margin-bottom: 10px;
     color: black;
     position: relative;
     left: 17cm;
@@ -489,15 +489,18 @@ padding:100px;
 
 .finaldesignp{
     font-size: 1em;
-    margin-bottom: 10px;
     color: black;
     position: relative;
     left: 17cm;
-    bottom: 29cm;
+    bottom: 28cm;
 
 
 }
 
+.everythingexceptheader{
+    position:relative;
+    bottom:4cm;
+}
 .slider2{
     position: relative;
     height: 40cm;
@@ -506,7 +509,7 @@ padding:100px;
     
     right: 1.8cm;
     bottom: 0cm;
-    opacity: 50%;
+    
     
 }
 
