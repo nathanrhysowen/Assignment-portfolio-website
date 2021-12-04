@@ -21,7 +21,7 @@ body {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 } /*places spaces between the headers*/
 
@@ -344,7 +344,7 @@ padding:100px;
     width: 60%;
     overflow: hidden;
     left:16.2cm;
-    bottom:1.9cm;
+    bottom:5cm;
     
 }
 
@@ -419,16 +419,152 @@ padding:100px;
     color:black;
 }
 
-.CARP p{
+.CARPh1{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color:black;
+    position: relative;
+    left: 17cm;
+    top: 5cm;
+    
+}
+
+.design1p{
     font-size: 1em;
     margin-bottom:10px;
     color: black;
+    position: relative;
+    left: 17cm;
+    bottom: 38cm;
 }
 
-.truefalse{
-    height:15cm;
-    width:11cm;
+.design2h{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: black;
+    position: relative;
+    left: 17cm;
+    top: 10cm;
 }
+
+.design2p{
+    font-size: 1em;
+    margin-bottom:10px;
+    color: black;
+    position: relative;
+    left: 17cm;
+    bottom: 35.1cm;
+}
+
+.design3h{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: black;
+    position: relative;
+    left: 17cm;
+    top: 14.5cm;
+
+}
+
+.design3p{
+    font-size: 1em;
+    margin-bottom:10px;
+    color: black;
+    position: relative;
+    bottom: 32cm;
+    left: 17cm;
+
+
+}
+
+.finaldesign{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: black;
+    position: relative;
+    left: 17cm;
+    top: 19cm;
+
+}
+
+.finaldesignp{
+    font-size: 1em;
+    margin-bottom: 10px;
+    color: black;
+    position: relative;
+    left: 17cm;
+    bottom: 29cm;
+
+
+}
+
+.slider2{
+    position: relative;
+    height: 40cm;
+    width: 18cm;
+    overflow: hidden;
+    
+    right: 1.8cm;
+    bottom: 0cm;
+    opacity: 50%;
+    
+}
+
+.images2{
+    display: flex;
+    width: 200%;
+    height: 20px;
+    
+    
+}
+
+.images2 img{
+    height: 1000px;
+    width: 50%;
+    transition: all 0.15s ease;
+    border: 5px solid;
+    border-color: lightseagreen;
+}
+
+.images2 input{
+    display: none;
+}
+
+
+.dots2{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.dots2 label{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: solid #fff 3px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    margin: 5px;
+    position: relative;
+    top: 26cm;
+}
+.dots2 label:hover{background: #fff;}
+#img3:checked ~ .m3 {
+    margin-left: 0%;
+    
+}
+#img4:checked ~ .m4 {
+    margin-left: -50%;
+}
+
+#img5:checked ~ .m5 {
+    margin-left: -100%;
+}
+#img6:checked ~ .m6 {
+    margin-left: -150%;
+}
+
+
 
 .Type{
     background:linear-gradient(to top,#1565C0,#1976d2);
