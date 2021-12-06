@@ -591,7 +591,8 @@ padding:100px;
 .UX{
     background: linear-gradient(to top, #0D47A1, #1565C0 );
     position:relative;
-    padding:100px
+    padding:100px;
+    height:fit-content;
 }
 
 .UXheader{
@@ -608,16 +609,53 @@ padding:100px;
 
 .flowcharth{
     position: relative;
-    top:29cm;
+    top:30cm;
     left: 5cm;
+}
+
+.flow{
+    position: relative;
+    top: 2cm;
 }
 
 .wireframesh{
     position: relative;
-    bottom:9cm;
-    left: 8cm;
+    bottom:11.18cm;
+    left: 25.5cm;
 }
 
+.flowchartp{
+    position: relative;
+    top:30cm;
+}
+
+.wireframep{
+    position:relative;
+    bottom:11.15cm;
+    left: 21cm;
+}
+
+.line{
+    border-left: 3px solid black;
+    height: 250px;
+    position: relative;
+    left: 17.5cm;
+    bottom: 16cm;
+
+}
+
+.strath{
+    position: relative;
+    bottom: 15cm;
+    left: 13.4cm;
+    text-decoration: underline 3px;
+    
+}
+
+.stratp{
+    position: relative;
+    bottom:14cm;
+}
 .UXslider{
     position: relative;
     height: 40cm;
@@ -654,6 +692,7 @@ padding:100px;
     display: flex;
     justify-content: center;
     margin: 5px;
+    
 }
 
 .dots3 label{
@@ -667,7 +706,7 @@ padding:100px;
     position: relative;
     top: 26cm;
 }
-.dots3 label:hover{background: #fff;}
+.dots3 label:hover{background: white;}
 #flowchart:checked ~ .m7 {
     margin-left: 0%;
     
