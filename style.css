@@ -1,7 +1,7 @@
 
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
     font-family: itc-avant-garde-gothic-pro, sans-serif;
     font-weight: 700;
@@ -13,7 +13,7 @@ body {
  min-height:100vh;
  overflow-x: hidden;
  background: linear-gradient(#E3F2FD, #2196F3);
- 
+ padding: 0px;
 
 }
 
@@ -594,7 +594,7 @@ padding:100px;
     padding:100px
 }
 
-.UX h2{
+.UXheader{
     font-size: 3.5em;
     margin-bottom:10px;
     color:black;
@@ -605,6 +605,81 @@ padding:100px;
     margin-bottom:10px;
     color:black;
 }
+
+.flowcharth{
+    position: relative;
+    top:29cm;
+    left: 5cm;
+}
+
+.wireframesh{
+    position: relative;
+    bottom:9cm;
+    left: 8cm;
+}
+
+.UXslider{
+    position: relative;
+    height: 40cm;
+    width: 18cm;
+    overflow: hidden;
+    left: 8.5cm;
+    bottom: 0cm;
+    
+    
+}
+
+.UXimages{
+    display: flex;
+    width: 200%;
+    height: 20px;
+    
+    
+}
+
+.UXimages img{
+    height: 1000px;
+    width: 50%;
+    transition: all 0.15s ease;
+    border: 5px solid;
+    border-color: lightseagreen;
+}
+
+.UXimages input{
+    display: none;
+}
+
+
+.dots3{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.dots3 label{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: solid #fff 3px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    margin: 5px;
+    position: relative;
+    top: 26cm;
+}
+.dots3 label:hover{background: #fff;}
+#flowchart:checked ~ .m7 {
+    margin-left: 0%;
+    
+}
+#wireframe1:checked ~ .m8 {
+    margin-left: -50%;
+}
+
+#wireframe2:checked ~ .m9 {
+    margin-left: -100%;
+}
+
 
 footer{
     text-decoration:none;
