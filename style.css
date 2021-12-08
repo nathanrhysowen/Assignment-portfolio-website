@@ -575,6 +575,7 @@ padding:100px;
     background:linear-gradient(to top,#1565C0,#1976d2);
     position:relative;
     padding:100px;
+    height: 50cm;
 }
 
 .Type h2{
@@ -824,6 +825,42 @@ padding:100px;
 .slide1p{
     position: relative;
     top:2cm;
+}
+
+.slide2h{
+    position:relative;
+    text-decoration:underline;
+    text-align: center;
+    top: 3cm;
+}
+
+.slide2p{
+    position:relative;
+    top: 4cm;
+}
+
+.slide3h{
+    position: relative;
+    text-decoration: underline;
+    text-align: center;
+    top: 5cm;
+}
+
+.slide3p{
+    position: relative;
+    top:6cm;
+}
+
+.slide4h{
+    position:relative;
+    text-decoration: underline;
+    text-align: center;
+    top:7cm;
+}
+
+.slide4p{
+    position:relative;
+    top: 8cm;
 }
 
 
