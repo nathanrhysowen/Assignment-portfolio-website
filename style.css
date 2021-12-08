@@ -660,6 +660,7 @@ padding:100px;
     position: relative;
     top:1cm;
 }
+
 .UXslider{
     position: relative;
     height: 28cm;
@@ -721,6 +722,108 @@ padding:100px;
 
 #wireframe2:checked ~ .m9 {
     margin-left: -100%;
+}
+
+
+/* Type slider */
+
+.Typeslider{
+    position: relative;
+    height: 15.2cm;;
+    width: 42.3%;
+    overflow: hidden;
+    left: 10cm;
+    bottom: 0cm;
+    border: 5px solid;
+    border-color: lightseagreen;
+    
+}
+
+.Typeimages{
+    display: flex;
+    width: 206%;
+    height: 20px;
+    
+    
+    
+    
+}
+
+.Typeimages img{
+    height: 567px;
+    width: 567px;
+    transition: all 0.15s ease;
+    
+    
+}
+
+.Typeimages input{
+    display: none;
+}
+
+
+.dots4{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    
+}
+
+.dots4 label{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: solid #fff 3px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    margin: 5px;
+    position: relative;
+    align-items: center;
+}
+.dots4 label:hover{background: white;}
+#Axial:checked ~ .m10 {
+    margin-left: 0%;
+    
+}
+#Radial:checked ~ .m11 {
+    margin-left: -48.5%;
+}
+
+#dilatational:checked ~ .m12 {
+    margin-left: -99%;
+}
+
+#Random:checked ~ .m13 {
+    margin-left: -150.3%;
+}
+
+#Grid:checked ~ .m14 {
+    margin-left: -200%;
+}
+
+#Modular:checked ~ .m15 {
+    margin-left: -250%;
+}
+
+#Transitional:checked ~ .m16 {
+    margin-left: -300%;
+}
+
+#Bilateral:checked ~ .m17 {
+    margin-left: -353%;
+}
+
+
+.slide1h{
+    position: relative;
+    text-decoration: underline;
+    text-align:center;
+    top:1cm;
+}
+
+.slide1p{
+    position: relative;
+    top:2cm;
 }
 
 
