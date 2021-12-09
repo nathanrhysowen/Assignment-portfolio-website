@@ -575,7 +575,7 @@ padding:100px;
     background:linear-gradient(to top,#1565C0,#1976d2);
     position:relative;
     padding:100px;
-    height: 50cm;
+    height: 60cm;
 }
 
 .Type h2{
@@ -731,7 +731,7 @@ padding:100px;
 .Typeslider{
     position: relative;
     height: 15.2cm;;
-    width: 42.3%;
+    width: 14.9cm;
     overflow: hidden;
     left: 10cm;
     bottom: 0cm;
@@ -783,7 +783,7 @@ padding:100px;
 }
 .dots4 label:hover{background: white;}
 #Axial:checked ~ .m10 {
-    margin-left: 0%;
+    margin-left: 0cm;
     
 }
 #Radial:checked ~ .m11 {
@@ -795,7 +795,7 @@ padding:100px;
 }
 
 #Random:checked ~ .m13 {
-    margin-left: -150.3%;
+    margin-left: -148.5%;
 }
 
 #Grid:checked ~ .m14 {
@@ -863,6 +863,60 @@ padding:100px;
     top: 8cm;
 }
 
+.slide5h{
+    position:relative;
+    text-decoration:underline;
+    text-align: center;
+    top:9cm;
+}
+
+.slide5p{
+    position: relative;
+    top:10cm;
+
+}
+
+.slide6h{
+    position:relative;
+    text-decoration:underline;
+    text-align: center;
+    top:11cm;
+
+}
+
+.slide6p{
+    position: relative;
+    top:12cm;
+
+}
+
+.slide7h{
+    position:relative;
+    text-decoration:underline;
+    text-align: center;
+    top:13cm;
+}
+
+.slide7p{
+    position: relative;
+    top:14cm;
+
+}
+
+.slide8h{
+    position:relative;
+    text-decoration:underline;
+    text-align: center;
+    top:15cm;
+
+}
+
+.slide8p{
+    position: relative;
+    top:16cm;
+
+}
+
 
 footer{
     text-decoration:none;
@@ -886,7 +940,8 @@ footer{
 }
 
 .oceanfloor{
-    height:40cm;
+    max-height:40cm;
+    max-width:40cm;;
 }
 
 .oceanfloorpng{
@@ -899,13 +954,13 @@ footer{
 .shark{
     position:relative;
     bottom: 25cm;
-    width: 80%;
+    width: 95%;
     height:50%;
 }
 
 .octopus{
     position: relative;
-    width: 85%;
+    width: 89%;
     height: 50%;
     bottom: 30cm;
     left: 10cm;
