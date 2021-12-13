@@ -177,6 +177,13 @@ section img#snow {
     font-size: 10em;
     
 }
+.coding-center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  
+}
 
 .Coding-tasks{
 background:linear-gradient(to top,#2196F3, transparent);
@@ -344,7 +351,7 @@ min-width: 35cm;
 
 .slider{
     position: relative;
-    width: 60%;
+    width: 47%;
     overflow: hidden;
     left:16.2cm;
     bottom:5cm;
@@ -577,6 +584,7 @@ min-width: 35cm;
     position:relative;
     padding:100px;
     height: 60cm;
+    width:100%;
 }
 
 .Type h2{
@@ -598,6 +606,7 @@ min-width: 35cm;
     height:fit-content;
     overflow: hidden;
     margin:0px;
+    align-items: center;
     
 }
 
@@ -616,7 +625,7 @@ min-width: 35cm;
 .flowcharth{
     position: relative;
     top:30.1cm;
-    left: 5cm;
+    left: 30%;
 }
 
 .flow{
@@ -627,38 +636,41 @@ min-width: 35cm;
 .wireframesh{
     position: relative;
     top:1.2cm;
-    left: 25.5cm;
+    left: 60%;
 }
 
 .flowchartp{
     position: relative;
     top:30.4cm;
+    left: 17%;
 }
 
 .wireframep{
     position:relative;
     top:1.5cm;
-    left: 21cm;
+    left: 53%;
 }
 
 .line{
     border-left: 3px solid black;
     height: 250px;
     position: relative;
-    left: 17.5cm;
+    left: 50%;
     bottom: 1cm;
+    text-align: center;
 
 }
 
 .strath{
     position: relative;
-    bottom: 0cm;
-    left: 13.4cm;
+    
     text-decoration: underline 3px;
+    text-align: center;
     
 }
 
 .stratp{
+    text-align: center;
     position: relative;
     top:1cm;
 }
@@ -668,7 +680,7 @@ min-width: 35cm;
     height: 28cm;
     width: 18cm;
     overflow: hidden;
-    left: 8.5cm;
+    left: 30.5%;
     bottom: 0cm;
     
     
@@ -734,12 +746,18 @@ min-width: 35cm;
     height: 15.2cm;;
     width: 14.9cm;
     overflow: hidden;
-    left: 10cm;
+
     bottom: 0cm;
     border: 5px solid;
     border-color: lightseagreen;
-    
-    
+    max-width: 26cm;
+    left: 140px;
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .Typeimages{
@@ -785,7 +803,7 @@ min-width: 35cm;
 }
 .dots4 label:hover{background: white;}
 #Axial:checked ~ .m10 {
-    margin-left: 0cm;
+    margin-left: 0%;
     
 }
 #Radial:checked ~ .m11 {
@@ -805,7 +823,7 @@ min-width: 35cm;
 }
 
 #Modular:checked ~ .m15 {
-    margin-left: -250%;
+    margin-left: -248%;
 }
 
 #Transitional:checked ~ .m16 {
@@ -813,7 +831,7 @@ min-width: 35cm;
 }
 
 #Bilateral:checked ~ .m17 {
-    margin-left: -353%;
+    margin-left: -349%;
 }
 
 
@@ -941,6 +959,20 @@ footer{
     height: 2cm;
 }
 
+.reflection h1{
+    position: relative;
+    text-align: center;
+    text-decoration: underline;
+    top: 100px;
+}
+
+.reflection p{
+    position: relative;
+    text-align: center;
+    top: 130px;
+    
+}
+
 .oceanfloor{
     max-height:40cm;
     max-width:40cm;;
@@ -948,14 +980,15 @@ footer{
 
 .oceanfloorpng{
     position: relative;
-    width: 120%;
+    width: auto;
     right: 3cm;
-    top: 21cm;
+    top: 16cm;
+    align-content: center;
 }
 
 .shark{
     position:relative;
-    bottom: 25cm;
+    bottom: 23cm;
     width: 95%;
     height:50%;
 }
@@ -964,6 +997,29 @@ footer{
     position: relative;
     width: 89%;
     height: 50%;
-    bottom: 28cm;
+    bottom: 31cm;
     left: 10cm;
+}
+
+.tutorial{
+    text-decoration:none;
+    padding: 6px 5px;
+    color: black;
+    text-align:center;
+    border: solid 2px black;
+    border-radius: 50px;
+    padding:10px 80px;
+    position: relative;
+    top: 200px;
+    left: 730px;
+
+
+}
+
+.tutorial:hover{
+    background: whitesmoke;
+    color: lightseagreen;
+    
+   
+
 }
